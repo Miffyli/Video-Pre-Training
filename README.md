@@ -5,8 +5,20 @@ Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
 
 
 > :page_facing_up: [Read Paper](https://cdn.openai.com/vpt/Paper.pdf) \
-  :space_invader: [MineRL Environment](https://github.com/minerllabs/minerl) (note version 1.0+ required) \
+  :space_invader: [MineRL Environment](https://github.com/minerllabs/minerl/tree/v1.0.0) (note version 1.0+ required) \
   :checkered_flag: [MineRL Competition](https://www.aicrowd.com/challenges/neurips-2022-minerl-basalt-competition)
+
+## Usage
+
+Install requirements and [MineRL v1.0](https://github.com/minerllabs/minerl/tree/v1.0.0), and download models below.
+
+To run the code, call
+
+```
+python run_agent.py --model [path to .model file] --weights [path to .weight file]
+```
+
+After loading up, you should see a window of the agent playing Minecraft.
 
 ## Model Zoo
 Below are the model files and weights files for various pre-trained Minecraft models.
